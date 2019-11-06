@@ -1,0 +1,54 @@
+.we-are {
+    .img {
+        background-image: url(https://i.ibb.co/c15szGk/about.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 640px;
+        position: relative;
+    }
+    .img-content {
+        margin: 150px 50px 150px 70px;
+        h1 {
+            font-size: 45px;
+            font-weight: bold;
+            color: black;
+            margin: 0;
+            span {
+                color: $mainColor
+            }
+        }
+        p {
+            color: $pColor;
+            padding-top: 30px;
+            font-size: 19px;
+            padding-bottom: 10px;
+            line-height: 1.7;
+        }
+    }
+}
+
+@media #{$maxSmall} {
+    .we-are {
+        .img {
+            height: 430px !important
+        }
+        .img-content {
+            margin: 0 !important;
+            padding: 25px !important;
+            h1 {
+                font-size: 30px !important
+            }
+            p {
+                padding-top: 15px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            button {
+                display: block;
+                width: 100%;
+                margin-bottom: 10px;            
+            }
+        }
+    }
+}

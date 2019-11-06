@@ -1,0 +1,39 @@
+.overlay {
+  background: #207dff;
+  color: white;
+  overflow: hidden;
+}
+
+.overlay .head p {
+  margin: 7px 0;
+  font-size: 15px;
+}
+
+.overlay .head p svg {
+  margin-right: 10px;
+}
+
+.overlay .head .p,
+.overlay .head .sign-up {
+  float: right;
+}
+
+.overlay .head .sign-up {
+  padding: 6px 0;
+}
+
+.overlay .head .sign-up a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.overlay .head .sign-up a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.overlay .head .sign-up a.left {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}

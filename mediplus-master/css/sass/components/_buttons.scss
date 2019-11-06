@@ -1,0 +1,49 @@
+.nav-scroll {
+    .button1 {
+        background: $mainColor !important;
+    }
+}
+
+button {
+    border: 1px solid transparent;
+    color: white;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.button1 {
+    border-radius: 5px;
+    padding: 15px 20px;
+    background: $secondColor;
+    &:hover {
+        background: $mainColor;
+    }
+}
+
+.button2 {
+    background: $mainColor;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    &:hover {
+        border: 1px solid $mainColor;
+        color: $mainColor;
+        background: white;
+    }
+}
+
+.button3 {
+    background: $secondColor;
+    padding: 18px 28px;
+    border-radius: 50px;
+    font-size: 18px;
+    &:hover {
+        border: 1px solid $secondColor;
+        color: $secondColor;
+        background: white;
+    }
+}
